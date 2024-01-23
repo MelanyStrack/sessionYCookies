@@ -1,0 +1,65 @@
+.login__main{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    flex-wrap: wrap;
+    font-family: sans-serif;
+    flex-direction: column;
+}
+.login__main-message{
+    width: 100%;
+    font-size: 25px;
+    text-align: center;
+    
+}
+form {
+    
+    display: flex;
+    
+    text-align: center;
+    flex-direction: column;
+}
+.login__main__form__div-checkbox {
+    margin-top: 1%;
+}
+.login__main form div label{
+    display: block;
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 1%;
+}
+.login__main form div {
+    margin-bottom: 2%;
+}
+
+.login__main form button{
+width: 25%;
+margin: 0 auto;
+padding: 1%;
+font-size: 20px;
+}
+.login__body__main-button-forget{
+    margin: 0 auto;
+    text-decoration: none;
+    border: 1px solid black;
+    padding: 1%;
+    width: 8%;
+    background-color: rgba(128, 128, 128, 60%);
+    text-align: center;
+    margin-top: 2%;
+}
+.login__body__main-button-forget a{
+    text-decoration: none;
+    color: black;
+    border:0px solid black;
+}
+
+.login__body__main-next{
+    margin: 0 auto;
+    text-decoration: none;
+    border: 1px solid black;
+    padding: 1%;
+    width: 10%;
+    text-align: center;
+    color: black;
+}

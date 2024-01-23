@@ -1,0 +1,11 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title><%= title %></title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+  </head>
+  <body style="background-color: <%= locals.user ? user.color : null %>" class="thanks__body">
+    <h1> <%= locals.user.name %>, gracias por visitarnos</h1>
+
+  </body>
+</html>
